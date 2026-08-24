@@ -31,7 +31,7 @@ jobs:
           mkdir android-project
           unzip SSA_MGPS_Billing_Modern_GitHub_Project_Fixed.zip -d android-project           
           mkdir -p android-project/app/src/main/res/drawable
-          cp ic_launcher.png android-project/app/src/main/res/drawable/ic_launcher.png
+          cp ic.launcher.png android-project/app/src/main/res/drawable/ic_launcher.png
           cp AndroidManifest.xml android-project/app/src/main/AndroidManifest.xml
 
       - name: Build APK
